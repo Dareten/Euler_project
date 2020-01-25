@@ -11,7 +11,7 @@ def switch():
     )
     proc.wait()
     res = proc.communicate()[0]
-    print(res.decode('utf-8'))
+    print(res.decode('utf-8'), end='')
 
 
 if __name__ == "__main__":

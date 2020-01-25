@@ -11,4 +11,4 @@ for i in range(3, 1000):
         s += i
         q.append(i)
 print(s)
-print(timeit.default_timer() - a)
+print(timeit.default_timer() - a, end='')

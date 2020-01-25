@@ -7,4 +7,4 @@ while f[-1] < 4000000:
     i += 1
 res = sum(filter(lambda x: x % 2 == 0 and x < 4000000, f))
 print(res)
-print(timeit.default_timer() - a)
+print(timeit.default_timer() - a, end='')
