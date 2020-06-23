@@ -1,8 +1,5 @@
-import timeit
 from config import is_abc
 
-
-a = timeit.default_timer()
 f = True
 for i in range(2, 999):
     if not f:
@@ -15,4 +12,3 @@ for i in range(2, 999):
             print(k * j * i)
             f = False
             break
-print(timeit.default_timer() - a, end='')
